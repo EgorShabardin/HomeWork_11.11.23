@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Тумаков - Лабораторная работа №10", "Тумаков - Лабораторная работа №10\Тумаков - Лабораторная работа №10.csproj", "{44DDABCD-4AE4-4948-9965-10274B722832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Решение задач", "Решение задач\Решение задач.csproj", "{83703E0D-6BD5-40CA-934E-D3051C8A28B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DDABCD-4AE4-4948-9965-10274B722832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DDABCD-4AE4-4948-9965-10274B722832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DDABCD-4AE4-4948-9965-10274B722832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DDABCD-4AE4-4948-9965-10274B722832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83703E0D-6BD5-40CA-934E-D3051C8A28B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83703E0D-6BD5-40CA-934E-D3051C8A28B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83703E0D-6BD5-40CA-934E-D3051C8A28B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83703E0D-6BD5-40CA-934E-D3051C8A28B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F6B4E24-CE72-4AEB-9579-BE6CB8BC7918}
+	EndGlobalSection
+EndGlobal
