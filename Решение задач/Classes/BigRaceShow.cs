@@ -8,33 +8,9 @@ namespace Решение_задач
     class BigRaceShow
     {
         #region Поля
-        private List<IGame> gamesList = new List<IGame>();
-        private List<Team> teamsList = new List<Team>();
+        readonly List<IGame> gamesList = new List<IGame>();
+        readonly List<Team> teamsList = new List<Team>();
         private static BigRaceShow show = null;
-        #endregion
-
-        #region Свойства
-        /// <summary>
-        /// Свойство, позволяющее читать поле gamesList.
-        /// </summary>
-        public List<IGame> GamesList
-        {
-            get
-            {
-                return gamesList;
-            }
-        }
-
-        /// <summary>
-        /// Свойство, позволяющее читать поле teamsList.
-        /// </summary>
-        public List<Team> TeamsList
-        {
-            get
-            {
-                return teamsList;
-            }
-        }
         #endregion
 
         #region Методы
@@ -59,12 +35,9 @@ namespace Решение_задач
         /// <summary>
         /// Метод, позволяющий начать шоу.
         /// </summary>
-        public void StartShow()
+        public void StartShow(IGame game)
         {
-            foreach(IGame game in gamesList)
-            {
-                game.StartTheGame();
-            }
+            game.StartTheGame();
         }
         #endregion
 

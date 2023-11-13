@@ -102,12 +102,17 @@ namespace Решение_задач
 
             OlivierGagnan.AddingGameToToShow(bigRaceShow, beach, mousetrap, sea, fishing, postmen, slide);
 
-            bigRaceShow.StartShow();
+            bigRaceShow.StartShow(beach);
+            bigRaceShow.StartShow(mousetrap);
+            bigRaceShow.StartShow(sea);
+            bigRaceShow.StartShow(fishing);
+            bigRaceShow.StartShow(postmen);
+            bigRaceShow.StartShow(slide);
             Console.WriteLine();
             
             Rock rock = new Rock();
             OlivierGagnan.AddingGameToToShow(bigRaceShow, rock);
-            bigRaceShow.StartShow();
+            bigRaceShow.StartShow(rock);
         }
     }
 }
