@@ -40,11 +40,11 @@
         /// </summary>
         /// <param name="tournament"> Шоу Большие гонки. </param>
         /// <param name="games"> Игра. </param>
-        public void AddingGameToToShow(BigRaceShow tournament, params Game[] games)
+        public void AddingGameToToShow(BigRaceShow tournament, params IGame[] games)
         {
             if (positionOfPerson == PositionOfPerson.организатор)
             {
-                foreach (Game game in games)
+                foreach (IGame game in games)
                 {
                     tournament.AddGameToShow(game);
                 }

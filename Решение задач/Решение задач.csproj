@@ -47,7 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\BigRaceShow.cs" />
-    <Compile Include="Classes\Game.cs" />
+    <Compile Include="Classes\Beach.cs" />
+    <Compile Include="Classes\Mousetrap.cs" />
+    <Compile Include="Classes\Sea.cs" />
+    <Compile Include="Classes\Fishing.cs" />
+    <Compile Include="Classes\Postmen.cs" />
+    <Compile Include="Classes\Slide.cs" />
+    <Compile Include="Classes\Rock.cs" />
     <Compile Include="Classes\Team.cs" />
     <Compile Include="Classes\Person.cs" />
     <Compile Include="Interfaces\IGame.cs" />

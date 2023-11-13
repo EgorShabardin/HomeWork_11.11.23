@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.ServiceModel;
 
 namespace Решение_задач
 {
@@ -64,7 +63,7 @@ namespace Решение_задач
         {
             foreach(IGame game in gamesList)
             {
-                game.startTheGame();
+                game.StartTheGame();
             }
         }
         #endregion
@@ -74,7 +73,7 @@ namespace Решение_задач
         /// Конструктор, позволяющий создать экземпляр класса BigRaceShow только один раз.
         /// </summary>
         /// <returns> Экземпляр класса BigRaceShow. </returns>
-        public static BigRaceShow getInstanse()
+        public static BigRaceShow getInstance()
         {
             if (show == null)
             {

@@ -93,22 +93,21 @@ namespace Решение_задач
             BigRaceShow bigRaceShow = new BigRaceShow();
             OlivierGagnan.AddingTeamToShow(bigRaceShow, russianTeam, chineseTeam, kazakhstanTeam, frenchTeam);
 
-            Game beach = new Game("Пляж");
-            Game mousetrap = new Game("Мышеловка");
-            Game sea = new Game("Море");
-            Game fishing = new Game("Рыбалка");
-            Game postmen = new Game("Почтальоны");
-            Game slide = new Game("Горка");
+            Beach beach = new Beach();
+            Mousetrap mousetrap = new Mousetrap();
+            Sea sea = new Sea();
+            Fishing fishing = new Fishing();
+            Postmen postmen = new Postmen();
+            Sidle slide = new Sidle();
 
             OlivierGagnan.AddingGameToToShow(bigRaceShow, beach, mousetrap, sea, fishing, postmen, slide);
 
             bigRaceShow.StartShow();
             Console.WriteLine();
             
-            Game rock = new Game("Скала");
+            Rock rock = new Rock();
             OlivierGagnan.AddingGameToToShow(bigRaceShow, rock);
             bigRaceShow.StartShow();
-
         }
     }
 }

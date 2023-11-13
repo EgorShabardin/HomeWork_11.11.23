@@ -8,6 +8,6 @@
         /// <summary>
         /// Метод, позволяющий начать игру.
         /// </summary>
-        void startTheGame();
+        void StartTheGame();
     }
 }
